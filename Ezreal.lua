@@ -83,7 +83,7 @@ function Ezreal:Menu()
 	mainMenu.Misc:Boolean("drawDMG", "Draw: R-Damage", true)
 	mainMenu.Misc:Key("farmQX", "LastHit: Q", string.byte("X"))
 	mainMenu.Misc:Key("farmQV", "WaveClear: Q", string.byte("V"))
-	mainMenu.Misc:Boolean("tearStack", "Tear Stacking", true)
+	mainMenu.Misc:Boolean("tearStack", "Tear Stacking", false)
 	mainMenu.Misc:Slider("qMana","Mana-Manager: Q", 30, 0, 100, 1)
 	mainMenu:Boolean("useSheen", "Sheen Weaving", true)
 end
